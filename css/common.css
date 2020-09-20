@@ -30,10 +30,20 @@ input[type=button], input[type=submit], button {
     background:#0d4985;
 	color: #FFFFFF;
 	border: none;
-    padding: 10px 20px;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+input[type=button]:hover, input[type=submit]:hover, button:hover {
+    background:#08335f;
 }
 
 .button-secondary {
 	background:#F0F0F0 !important;
+    color: #111111 !important;
+}
+
+.button-secondary:hover {
+	background:#DDDDDD !important;
     color: #111111 !important;
 }
