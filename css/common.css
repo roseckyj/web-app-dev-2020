@@ -1,0 +1,39 @@
+html, body {
+    margin: 0;
+	padding: 0;
+    background-color: #1b79de;
+}
+* {
+	box-sizing: border-box;
+	font-family: 'Roboto Slab', serif;
+}
+
+a {
+	color: #1b79de;
+	text-decoration: none;
+}
+
+input, button {
+    font-size: 13px;
+	resize: none;
+	border-radius: 5px;
+	outline: none;
+}
+
+input[type=text], #login-container #login-box input[type=password]{
+	border: solid 1px #aaaaaa;
+	background-color: white;
+    padding: 10px 15px;
+}
+
+input[type=button], input[type=submit], button {
+    background:#0d4985;
+	color: #FFFFFF;
+	border: none;
+    padding: 10px 20px;
+}
+
+.button-secondary {
+	background:#F0F0F0 !important;
+    color: #111111 !important;
+}

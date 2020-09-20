@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Welcome to postIt! Please Login</title>
+
+    <meta name="viewport" content="width = device-width, initial-scale = 1" />
+
+    <!-- local stylesheet, see folder 'css'-->
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/login.css" />
+
+    <!--Import Google Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <section id="login-container">
+        <div id="login-box">
+            <div class="img">
+                <img src="./img/postIt1.jpg" width=90 height=90 alt="Icon">
+            </div>
+            <h3>Welcome to postIt!</h3>
+            <p>Please Log In</p>
+
+            <form name="login-form"
+                action="./index.html"
+                method="GET">            
+                <input class="login-input" type="text" placeholder="Email" />
+                <input class="login-input" type="password" placeholder="Password" />
+                <div>
+                    <input class="login-button" type="submit" value="Log in" />
+                    <span class="s-hidden">or</span>
+                    <input type="button" class="login-button button-secondary" value="Sign up" />
+                </div>
+                <a class="forgot" href="#">Forgot password?</a>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
