@@ -20,10 +20,14 @@ nav div img {
 #search-container > input[type=text] {
     height: 30px;
     width: 80%;
+    margin: 0;
+    padding: 5px;
 }
 
-.search-container > input[type=button] {
+#search-container > input[type=submit] {
     width: 20%;
+    margin: 0;
+    padding: 5px;
 }
 
 #posts-container {
