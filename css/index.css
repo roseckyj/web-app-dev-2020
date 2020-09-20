@@ -1,0 +1,108 @@
+html, body {
+    margin: 0;
+	padding: 0;
+    background-color: #1b79de;
+}
+* {
+	font-family: 'Roboto Slab', serif;
+}
+
+a {
+	color: #1b79de;
+	text-decoration: none;
+}
+
+nav {
+    display: flex;
+    background-color: #ffffff;
+    align-items: center;
+}
+
+nav div{
+    height: 30px;
+    flex-grow: 4;
+    padding: 10px;
+}
+
+nav div img {
+    height: 100%;
+}
+
+#profile {
+    float: right;
+}
+
+nav div.search-container > input {
+    box-sizing: border-box;
+    height: 30px;
+    width: 80%;
+    margin: 0;
+    border: 1px solid grey;
+}
+
+nav div.search-container > button {
+    box-sizing: border-box;
+    height: 30px;
+    width: 20%;
+    margin: 0;
+}
+
+input[type=button], input[type=submit], button {
+    background:#0e3e6e;
+	color: #FFFFFF;
+	padding: 5px;
+    cursor: pointer;
+    border: 1px solid #0d4985;
+}
+
+#posts-container {
+    width: 45%;
+    margin: 0px auto;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.post {
+    margin: 20px 30px 5px 30px;
+	width: 500px;
+	background-color: #ffffff;
+	text-align: left;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
+
+.post header {
+    height: 30px;
+    flex-grow: 4;
+    padding: 5px;
+}
+
+.post header img{
+    height: 100%;
+    float: left;
+}
+
+.post header small{
+    float: right;
+    color: grey;
+}
+
+.post-image {
+    width: 100%;
+}
+
+.post footer {
+    flex-grow: 4;
+    padding: 5px;
+}
+
+.post footer button{
+    float: left;
+}
+
+@media only screen and (max-width: 420px) {
+	
+}
