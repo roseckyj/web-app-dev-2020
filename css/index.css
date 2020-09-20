@@ -1,27 +1,12 @@
-html, body {
-    margin: 0;
-	padding: 0;
-    background-color: #1b79de;
-}
-* {
-	font-family: 'Roboto Slab', serif;
-}
-
-a {
-	color: #1b79de;
-	text-decoration: none;
-}
-
 nav {
     display: flex;
     background-color: #ffffff;
-    align-items: center;
+    height: 45px;
+    padding: 8px;
 }
 
 nav div{
-    height: 30px;
-    flex-grow: 4;
-    padding: 10px;
+    width: 34%;
 }
 
 nav div img {
@@ -32,41 +17,28 @@ nav div img {
     float: right;
 }
 
-nav div.search-container > input {
-    box-sizing: border-box;
+#search-container > input[type=text] {
     height: 30px;
     width: 80%;
-    margin: 0;
-    border: 1px solid grey;
 }
 
-nav div.search-container > button {
-    box-sizing: border-box;
-    height: 30px;
+.search-container > input[type=button] {
     width: 20%;
-    margin: 0;
-}
-
-input[type=button], input[type=submit], button {
-    background:#0e3e6e;
-	color: #FFFFFF;
-	padding: 5px;
-    cursor: pointer;
-    border: 1px solid #0d4985;
 }
 
 #posts-container {
     width: 45%;
-    margin: 0px auto;
+    margin: auto;
 	display:flex;
 	justify-content:center;
 	align-items:center;
     flex-wrap: wrap;
     background-color: white;
+    padding: 30px;
 }
 
 .post {
-    margin: 20px 30px 5px 30px;
+    margin: 10px;
 	width: 500px;
 	background-color: #ffffff;
 	text-align: left;
@@ -75,9 +47,8 @@ input[type=button], input[type=submit], button {
 }
 
 .post header {
-    height: 30px;
-    flex-grow: 4;
-    padding: 5px;
+    height: 45px;
+    padding: 8px;
 }
 
 .post header img{
@@ -96,7 +67,7 @@ input[type=button], input[type=submit], button {
 
 .post footer {
     flex-grow: 4;
-    padding: 5px;
+    padding: 8px;
 }
 
 .post footer button{
