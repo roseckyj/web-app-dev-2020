@@ -47,3 +47,7 @@ input[type=button]:hover, input[type=submit]:hover, button:hover {
 	background:#DDDDDD !important;
     color: #111111 !important;
 }
+
+body > header ~ section {
+	margin-top: 45px !important;
+}
